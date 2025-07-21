@@ -1,0 +1,50 @@
+@import 'tailwindcss';
+
+@font-face {
+	font-family: 'Antonio';
+	font-style: normal;
+	font-weight: 500;
+
+	src: url('/fonts/Antonio/Antonio-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Spartan';
+	font-style: normal;
+	font-weight: 400;
+
+	src: url('/fonts/Spartan/Spartan-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Spartan';
+	font-style: normal;
+	font-weight: 700;
+
+	src: url('/fonts/Spartan/Spartan-Bold.ttf') format('truetype');
+}
+
+@theme {
+	--breakpoint-*: initial;
+	--breakpoint-desktop: 1024px;
+	--breakpoint-phone: 480px;
+	--breakpoint-tablet: 768px;
+
+	--color-*: initial;
+	--color-blue: #2d68f0;
+	--color-brown: #cd5120;
+	--color-darkblue: #070724;
+	--color-darkgrey: #38384f;
+	--color-lightblue: #419ebb;
+	--color-lightgrey: #838391;
+	--color-orange: #d14c32;
+	--color-purple: #6f2ed6;
+	--color-red: #d83a34;
+	--color-turquoise: #1ec2a4;
+	--color-white: #ffffff;
+	--color-yellow: #eda249;
+
+	--font-*: initial;
+	--font-antonio: 'Antonio', sans-serif;
+	--font-spartan: 'Spartan', sans-serif;
+}
