@@ -26,6 +26,7 @@
 
 @theme {
 	--color-*: initial;
+	--color-black: #000000;
 	--color-darkblue: #070724;
 	--color-white: #ffffff;
 
